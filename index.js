@@ -51,10 +51,10 @@ module.exports = {
         ],
       },
     ],
-    "no-duplicate-imports": false,
+    "no-duplicate-imports": "off",
     "prefer-object-spread/prefer-object-spread": "error",
-    "react/prefer-stateless-function": false,
-    "react/prop-types": false,
+    "react/prefer-stateless-function": "off",
+    "react/prop-types": "off",
     quotes: [
       "error",
       "double",
