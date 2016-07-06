@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-flow-atom",
+  "version": "0.0.0",
+  "description": "ESLint configuration for flow-atom packages",
+  "keywords": [
+    "RedPRL"
+  ],
+  "author": {
+    "name": "Darin Morrison",
+    "email": "freebroccolo@users.noreply.github.com",
+    "url": "https://github.com/freebroccolo/"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/flow-atom/eslint-config-flow-atom",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flow-atom/eslint-config-flow-atom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flow-atom/eslint-config-flow-atom/issues"
+  },
+  "scripts": {
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "test": "eslint ."
+  },
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-flow-vars": "^0.4.0",
+    "eslint-plugin-flowtype": "^2.2.7",
+    "eslint-plugin-import": "^1.9.1",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-prefer-object-spread": "^1.1.0",
+    "eslint-plugin-react": "^5.1.1"
+  },
+  "devDependencies": {
+    "husky": "^0.11.4"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^6.1.0",
+    "eslint": "^2.13.1"
+  }
+}
