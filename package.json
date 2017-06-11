@@ -26,21 +26,21 @@
   },
   "main": "index.js",
   "dependencies": {
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-babel": "^3.2.0",
-    "eslint-plugin-flow-vars": "^0.4.0",
-    "eslint-plugin-flowtype": "^2.2.7",
-    "eslint-plugin-import": "^1.9.1",
-    "eslint-plugin-jsx-a11y": "^1.2.0",
-    "eslint-plugin-prefer-object-spread": "^1.1.0",
-    "eslint-plugin-react": "^5.1.1"
+    "eslint-config-airbnb": "*",
+    "eslint-plugin-babel": "*",
+    "eslint-plugin-flow-vars": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-prefer-object-spread": "*",
+    "eslint-plugin-react": "*"
   },
   "devDependencies": {
     "flow-bin": "^0.28.0",
     "husky": "^0.11.4"
   },
   "peerDependencies": {
-    "babel-eslint": "^6.1.0",
-    "eslint": "^2.13.1"
+    "babel-eslint": "*",
+    "eslint": "*"
   }
 }
